@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"/>
+
+        <Button
+            android:id="@+id/cs_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="CS"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/math_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Math"
+            android:textSize="25dp"/>
+
+        <Button
+            android:id="@+id/chemistry_button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Chemistry"
+            android:textSize="25dp"/>
+    </LinearLayout>
+
+</FrameLayout>
